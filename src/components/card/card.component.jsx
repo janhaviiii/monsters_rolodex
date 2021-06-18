@@ -10,7 +10,7 @@ export const Card = props => (
         /> */}
         
         <img className="image"
-            src={`/images/${props.monster.id}.jpg`}
+            src={`./images/${props.monster.id}.jpg`}
         />
         <h2> {props.monster.name}</h2>
         <p> {props.monster.id} </p>
